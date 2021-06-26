@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+
+
+
+/* navbar  */
+nav{
+    margin-top: -16px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    
+}
+
+
+.logo-image{
+   
+    border-radius: 80%;
+    overflow: hidden;
+    
+}
+ul{
+    background-color:rgb(17, 16, 16);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+    
+}
+li{
+    list-style: none;
+    padding: 20px;
+    float: right;
+    font-family: 'Jomhuria', cursive;
+    font-size: 50px;
+}
+
+/* container index page ko */
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftcontainer{
+    
+    width: 18%;
+    height: 478px;
+
+    
+    
+}
+
+.centercontainer{
+    border:1px solid black;
+    width: 58%; 
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.rightcontainer{
+    
+    width: 18%;
+    height: 478px;
+    
+}
+
+.nav{
+    background-color: black;
+    height: 50px;
+    margin: 0px;
+    position: sticky;
+    top: 0;
+   
+ 
+}
+.nav p{
+    padding: 10px;
+    color: wheat;
+    position: relative;
+    top: -13px;
+}
+
+
+
+#search_form{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#search_form input{
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 90px;
+}
+
+/* Register Form Here */
+form{
+    padding: 10px;
+}
+
+input{
+    padding: 5px;
+}
